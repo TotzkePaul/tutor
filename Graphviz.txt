@@ -1,0 +1,20 @@
+https://dreampuf.github.io/GraphvizOnline
+digraph unix {
+    size="6,6";
+    node [color=lightblue2, style=filled];
+    "Developer Skills" -> "Git";
+    "Developer Skills" -> "VS Code";
+    "Developer Skills" -> "Command Line";
+    "Developer Skills" -> "APIs";
+    "Developer Skills" -> "Auth";
+    "Developer Skills" -> "Front-End";
+    "Developer Skills" -> "Back-End";
+    "Developer Skills" -> "Database";
+    "Git" -> "Commit";
+    "Git" -> "Branch";
+    "Git" -> "Merge";
+    
+    "Database" -> "Mer";
+    "Database" -> "ORM";
+    "Database" -> "ORM";
+}

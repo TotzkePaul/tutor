@@ -4,25 +4,6 @@
     
 # Mern Stack Tutor
 
-~~This hypertext book for everything you need to know for your first day as a developer.~~
-
-Master Yoda spent 20 years alone in exile on Dagobah meditating on Luke's Jedi Bootcamp training.
-
-I'll try to make you a WebDev Jedi or DevOps Sith Master as fast as Yoda trained Luke. 😉 
-
-Worried that your behind? 
-You never stop learning. Technology is always changing, so what might be good today is not tomorrow.
-
-
-Codeacademy  (Too easy?)
-
-Odin Project
-
-Free Code Camp
-
-
-If you wanna stumble in the right direction, but still fall down sometimes check out YouTube Videos from Traversy Media, The Net Ninja, Academind, Programming with Mosh,  and Coding Phase.
-
 What stack should I learn first?
 MERN because you only need to learn 1 language to do all 3 major parts of web app: Front End, BackEnd and Database
 
@@ -45,6 +26,8 @@ Learn nginx, iis, apache or another web server? Migrating is a little difficult 
 
 
 ![Logo](https://cdn.discordapp.com/attachments/841822367641763855/846549374724603964/unknown.png)
+
+[![Logo](SkillTree.svg)](https://dreampuf.github.io/GraphvizOnline/#digraph%20devskills%20%7B%0A%20%20%20%20size%3D%2212%2C12%22%3B%0A%20%20%20%20node%20%5Bcolorscheme%3Daccent8%2C%20style%3Dfilled%2C%20ordering%3Dout%2C%20color%3Dlightblue2%2C%20fontsize%3D60%2C%20shape%3Dbox%5D%3B%0A%20%20%20%20rankdir%20%3D%20LR%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22Git%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22VS%20Code%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22APIs%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22Front-End%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22Back-End%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22Command%20Line%22%3B%0A%20%20%20%20%2F%2F%22Dev%20Skills%22%20-%3E%20%22Database%22%3B%0A%0A%20%20%20%20subgraph%20git%20%7B%0A%20%20%20%20%20%20%20%20%22Git%22%20%5Bcolor%3D%222%22%5D%3B%0A%20%20%20%20%20%20%20%20%22Git%22%20-%3E%20%22GitHub%22%3B%0A%20%20%20%20%20%20%20%20%22Git%22%20-%3E%20%22Commit%22%3B%0A%20%20%20%20%20%20%20%20%22Git%22%20-%3E%20%22Branch%22%3B%0A%20%20%20%20%20%20%20%20%22Git%22%20-%3E%20%22Merge%22%3B%0A%09%7D%0A%20%20%20%20%0A%20%20%20%20subgraph%20vscode%20%7B%0A%20%20%20%20%20%20%20%20%22VS%20Code%22%20%5Bcolor%3D%223%22%5D%3B%0A%20%20%20%20%20%20%20%20%22VS%20Code%22%20-%3E%20%22.vscode%22%3B%0A%20%20%20%20%20%20%20%20%22VS%20Code%22%20-%3E%20%22IDE%22%3B%0A%20%20%20%20%20%20%20%20%22IDE%22%20-%3E%20%22debugging%22%3B%0A%20%20%20%20%20%20%20%20%22IDE%22%20-%3E%20%22search%22%3B%0A%20%20%20%20%20%20%20%20%22IDE%22%20-%3E%20%22settings%22%3B%0A%20%20%20%20%20%20%20%20%22IDE%22%20-%3E%20%22extensions%22%3B%0A%20%20%20%20%20%20%20%20%22IDE%22%20-%3E%20%22shortcuts%22%3B%0A%20%20%20%20%20%20%20%20%22.vscode%22%20-%3E%20%22launch.json%22%3B%0A%20%20%20%20%20%20%20%20%22.vscode%22%20-%3E%20%22tasks.json%22%3B%0A%09%7D%0A%20%20%20%20%0A%20%20%20%20subgraph%20apis%20%7B%0A%20%20%20%20%20%20%20%20%22APIs%22%20%5Bcolor%3D%224%22%5D%3B%0A%20%20%20%20%20%20%20%20%22APIs%22%20-%3E%20%22Http%20Verbs%22%3B%0A%20%20%20%20%20%20%20%20%22APIs%22%20-%3E%20%22Http%20Status%20Codes%22%3B%0A%20%20%20%20%20%20%20%20%22APIs%22%20-%3E%20%22Http%20Headers%22%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%22Http%20Status%20Codes%22%20-%3E%20%222XX%3A%20Successful%20responses%22%3B%0A%20%20%20%20%20%20%20%20%22Http%20Status%20Codes%22%20-%3E%20%223XX%3A%20Redirection%20messages%22%3B%0A%20%20%20%20%20%20%20%20%22Http%20Status%20Codes%22%20-%3E%20%224XX%3A%20Client%20error%20responses%22%3B%0A%20%20%20%20%20%20%20%20%22Http%20Status%20Codes%22%20-%3E%20%225XX%3A%20Server%20error%20responses%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%222XX%3A%20Successful%20responses%22%20-%3E%20%22200%20OK%22%3B%0A%20%20%20%20%20%20%20%20%222XX%3A%20Successful%20responses%22%20-%3E%20%22201%20Created%22%3B%0A%20%20%20%20%20%20%20%20%222XX%3A%20Successful%20responses%22%20-%3E%20%22204%20No%20Content%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%223XX%3A%20Redirection%20messages%22%20-%3E%20%22301%20Moved%20Permanently%22%3B%0A%20%20%20%20%20%20%20%20%223XX%3A%20Redirection%20messages%22%20-%3E%20%22302%20Found%22%3B%0A%20%20%20%20%20%20%20%20%223XX%3A%20Redirection%20messages%22%20-%3E%20%22304%20Not%20Modified%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%224XX%3A%20Client%20error%20responses%22%20-%3E%20%22400%20Bad%20Request%22%3B%0A%20%20%20%20%20%20%20%20%224XX%3A%20Client%20error%20responses%22%20-%3E%20%22401%20Unauthorized%22%3B%0A%20%20%20%20%20%20%20%20%224XX%3A%20Client%20error%20responses%22%20-%3E%20%22403%20Forbidden%22%3B%0A%20%20%20%20%20%20%20%20%224XX%3A%20Client%20error%20responses%22%20-%3E%20%22404%20Not%20Found%22%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%225XX%3A%20Server%20error%20responses%22%20-%3E%20%22500%20Internal%20Server%20Error%22%3B%0A%20%20%20%20%20%20%20%20%225XX%3A%20Server%20error%20responses%22%20-%3E%20%22502%20Bad%20Gateway%22%3B%0A%20%20%20%20%20%20%20%20%225XX%3A%20Server%20error%20responses%22%20-%3E%20%22503%20Service%20Unavailable%22%3B%0A%20%20%20%20%20%20%20%20%225XX%3A%20Server%20error%20responses%22%20-%3E%20%22504%20Gateway%20Timeout%22%3B%0A%09%7D%0A%20%20%20%20%0A%20%20%20%20subgraph%20cmd%20%7B%0A%20%20%20%20%20%20%20%20%22Command%20Line%22%20%5Bcolor%3D%228%22%5D%3B%0A%20%20%20%20%20%20%20%20%22Command%20Line%22%20-%3E%20%22Bash%20Shell%22%3B%0A%20%20%20%20%20%20%20%20%22Command%20Line%22%20-%3E%20%22Powershell%22%3B%0A%09%7D%0A%09%0A%09subgraph%20frontend%20%7B%0A%20%20%20%20%20%20%20%20%22Front-End%22%20%5Bcolor%3D%221%22%5D%3B%0A%20%20%20%20%20%20%20%20%22Front-End%22%20-%3E%20%22HTML%22%0A%20%20%20%20%20%20%20%20%22Front-End%22%20-%3E%20%22CSS%22%0A%20%20%20%20%20%20%20%20%22Front-End%22%20-%3E%20%22JavaScript%22%0A%09%7D%0A%20%20%20%20%0A%20%20%20%20subgraph%20backend%20%7B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20%5Bcolor%3D%225%22%5D%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Web%20Server%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22ORM%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Language%2BFramework%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22OWASP%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Encryption%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Unit%20Testing%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22CI%2FCD%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Librarys%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22IO%22%3B%0A%20%20%20%20%20%20%20%20%22Back-End%22%20-%3E%20%22Logs%22%3B%0A%09%7D%0A%20%20%20%20%0A%20%20%20%20subgraph%20databse%20%7B%0A%20%20%20%20%20%20%20%20%22Database%22%20%5Bcolor%3D%227%22%5D%3B%0A%20%20%20%20%20%20%20%20%22Database%22%20-%3E%20%22SQL%22%3B%0A%20%20%20%20%20%20%20%20%22Database%22%20-%3E%20%22NoSQL%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%22%20-%3E%20%22SQL%20Verbs%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%22%20-%3E%20%22SQL%20Objects%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Verbs%22%20-%3E%20%22Select%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Verbs%22%20-%3E%20%22Insert%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Verbs%22%20-%3E%20%22Update%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Verbs%22%20-%3E%20%22Delete%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Objects%22%20-%3E%20%22Tables%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Objects%22%20-%3E%20%22Views%22%3B%0A%20%20%20%20%20%20%20%20%22SQL%20Objects%22%20-%3E%20%22Stored%20Procs%22%3B%0A%20%20%20%20%20%20%20%20%0A%09%7D%0A%7D)
 
 
 
@@ -91,6 +74,7 @@ https://learngitbranching.js.org/
 * local repository - A repository on your local machine
 * remote repository - A repository which is used to track the same project but resides somewhere else. To communicate with remotes, see fetch or push.
 
+[github-glossary](https://docs.github.com/en/github/getting-started-with-github/quickstart/github-glossary)
 
 ## Badges
 
